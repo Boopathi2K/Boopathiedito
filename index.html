@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boopathi Video Editing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Boopathi Video Editing</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm Boopathi, a passionate video editor with experience in wedding, birthday, and event videos.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="filter-buttons">
+            <button data-filter="all">All</button>
+            <button data-filter="wedding">Weddings</button>
+            <button data-filter="birthday">Birthdays</button>
+            <button data-filter="event">Events</button>
+        </div>
+        <div class="video-gallery">
+            <div class="video-item" data-category="wedding">
+                <video src="wedding1.mp4" controls></video>
+                <p>Wedding Video 1</p>
+            </div>
+            <div class="video-item" data-category="birthday">
+                <video src="birthday1.mp4" controls></video>
+                <p>Birthday Video 1</p>
+            </div>
+            <div class="video-item" data-category="event">
+                <video src="event1.mp4" controls></video>
+                <p>Event Video 1</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>My Services</h2>
+        <ul>
+            <li>Wedding Video Editing</li>
+            <li>Birthday & Event Video Editing</li>
+            <li>Music Videos</li>
+            <li>Corporate Videos</li>
+        </ul>
+    </section>
+
+    <!-- Testimonials Section (Optional) -->
+    <section id="testimonials">
+        <h2>What Clients Say</h2>
+        <blockquote>
+            <p>"Boopathi did an amazing job with our wedding video. Highly recommended!"</p>
+            <cite>– Sarah, Switzerland</cite>
+        </blockquote>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Boopathi Video Editing | All Rights Reserved</p>
+    </footer>
+
+    <!-- Linking External JavaScript -->
+    <script src="script.js" defer></script>
+</body>
+</html>
